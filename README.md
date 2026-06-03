@@ -8,17 +8,25 @@
   </p>
 </div>
 
-<!-- TARJETA SOBRE MÍ CON BORDE DE COLOR Y FONDO RESALTADO -->
+<!-- TARJETA SOBRE MÍ CON BORDE DE COLOR, FONDO RESALTADO E IMAGEN LATERAL -->
 <div style="background-color: #f0f7ff; border-left: 8px solid #0052cc; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 30px;">
-  <h2 style="color: #0052cc; font-family: 'Segoe UI', sans-serif; margin-top: 0; font-size: 22px; border-bottom: 2px solid #cbd5e1; padding-bottom: 8px;">
-    👤 Sobre Mí
-  </h2>
-  <p style="color: #334155; font-size: 16px; line-height: 1.7; font-family: 'Segoe UI', sans-serif; margin-bottom: 12px;">
-    Soy un profesional dedicado a las <b>Ciencias Comerciales</b> con una sólida vocación por la enseñanza digital. En mi trayectoria en el <b>Instituto Nacional de Osicala</b>, he tenido el honor de guiar y capacitar a estudiantes en la especialidad de <b>Administrativo Contable</b>.
-  </p>
-  <p style="color: #334155; font-size: 16px; line-height: 1.7; font-family: 'Segoe UI', sans-serif; margin-top: 0;">
-    Mi enfoque consiste en dinamizar los procesos financieros y comerciales introduciendo herramientas tecnológicas interactivas que preparen mejor a los futuros profesionales técnicos.
-  </p>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px;">
+    <div style="flex: 1; min-width: 280px;">
+      <h2 style="color: #0052cc; font-family: 'Segoe UI', sans-serif; margin-top: 0; font-size: 22px; border-bottom: 2px solid #cbd5e1; padding-bottom: 8px;">
+        👤 Sobre Mí
+      </h2>
+      <p style="color: #334155; font-size: 16px; line-height: 1.7; font-family: 'Segoe UI', sans-serif; margin-bottom: 12px;">
+        Soy un profesional dedicado a las <b>Ciencias Comerciales</b> con una sólida vocación por la enseñanza digital. En mi trayectoria en el <b>Instituto Nacional de Osicala</b>, he tenido el honor de guiar y capacitar a estudiantes en la especialidad de <b>Administrativo Contable</b>.
+      </p>
+      <p style="color: #334155; font-size: 16px; line-height: 1.7; font-family: 'Segoe UI', sans-serif; margin-top: 0;">
+        Mi enfoque consiste en dinamizar los procesos financieros y comerciales introduciendo herramientas tecnológicas interactivas que preparen mejor a los futuros profesionales técnicos.
+      </p>
+    </div>
+    <!-- IMAGEN 1: ILUSTRACIÓN DE ANALÍTICA COMERCIAL Y FINANZAS -->
+    <div style="text-align: center; margin: auto;">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0cmV6eW9kZzh1Yms0ZndwZ3I4ZzNidmFseWtsM3A0dW9wZmsyYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1tvI9svkIWwpVYr/giphy.gif" width="160px" alt="Ciencias Comerciales y Finanzas" style="border-radius: 10px;" />
+    </div>
+  </div>
 </div>
 
 <!-- SECCIÓN DE TECNOLOGÍAS CON TITULO DE COLOR -->
@@ -48,6 +56,11 @@
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
     </p>
   </div>
+</div>
+
+<!-- IMAGEN 2: BANNER SEPARADOR DE ADMINISTRACIÓN, CONTABILIDAD Y OFICINA DIGITAL -->
+<div align="center" style="margin-bottom: 30px;">
+  <img src="https://storyset.com/about/images/illustrations/financial-profit.svg" width="380px" alt="Gestión Administrativa Contable" style="max-width:100%; height:auto; opacity: 0.9;" />
 </div>
 
 <!-- TARJETAS DE PROYECTOS INDEPENDIENTES CON CSS -->
